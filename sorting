@@ -32,10 +32,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    // Perform Bubble Sort
     bubbleSort(arr, n);
-
-    // Display the sorted array
     displayArray(arr, n);
 
     return 0;
