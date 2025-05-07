@@ -6,7 +6,7 @@ int binarySearch(int a[], int beg, int end, int val) {
         mid = (beg + end) / 2;
 
         if (a[mid] == val) {
-            return mid; // Return the 0-based index
+            return mid; 
         }
 
         else if (a[mid] > val) {
